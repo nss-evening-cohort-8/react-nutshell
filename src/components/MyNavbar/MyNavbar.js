@@ -38,7 +38,7 @@ class MyNavbar extends React.Component {
               <NavLink tag={RRNavLink} to='/friends'><i className="fas fa-user-friends fa-2x"></i></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={RRNavLink} to='/messages'><i class="fas fa-comments fa-2x"></i></NavLink>
+              <NavLink tag={RRNavLink} to='/messages'><i className="fas fa-comments fa-2x"></i></NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={RRNavLink} to='/weather'><i className="fas fa-sun fa-2x"></i></NavLink>
