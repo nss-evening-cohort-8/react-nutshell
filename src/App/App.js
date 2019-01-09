@@ -21,14 +21,14 @@ import authRequests from '../helpers/data/authRequests';
 
 const PublicRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = props => (authed === false
-    ? (<Component { ...props } />)
+    ? (<Component {...props} />)
     : (<Redirect to={{ pathname: '/home', state: { from: props.location } }} />));
   return <Route {...rest} render={props => routeChecker(props)} />;
 };
 
 const PrivateRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = props => (authed === true
-    ? (<Component { ...props } />)
+    ? (<Component {...props} />)
     : (<Redirect to={{ pathname: '/auth', state: { from: props.location } }} />));
   return <Route {...rest} render={props => routeChecker(props)} />;
 };
@@ -69,17 +69,19 @@ class App extends React.Component {
         <BrowserRouter>
           <React.Fragment>
             <MyNavBar isAuthed={authed} logoutClickEvent={logoutClickEvent} />
+            <div className='container'>
             <div className='row'>
-              <Switch>
-                <PrivateRoute path='/' exact component={Home} authed={this.state.authed} />
-                <PrivateRoute path='/home' component={Home} authed={this.state.authed} />
-                <PrivateRoute path="/friends" authed={this.state.authed} component={Friends} />
-                <PrivateRoute path="/articles" authed={this.state.authed} component={Articles} />
-                <PrivateRoute path="/weather" authed={this.state.authed} component={Weather} />
-                <PrivateRoute path="/events" authed={this.state.authed} component={Events} />
-                <PrivateRoute path="/messages" authed={this.state.authed} component={Messages}/>
-                <PublicRoute path='/auth' component={Auth} authed={this.state.authed} />
-              </Switch>
+                <Switch>
+                  <PrivateRoute path='/' exact component={Home} authed={this.state.authed} />
+                  <PrivateRoute path='/home' component={Home} authed={this.state.authed} />
+                  <PrivateRoute path="/friends" authed={this.state.authed} component={Friends} />
+                  <PrivateRoute path="/articles" authed={this.state.authed} component={Articles} />
+                  <PrivateRoute path="/weather" authed={this.state.authed} component={Weather} />
+                  <PrivateRoute path="/events" authed={this.state.authed} component={Events} />
+                  <PrivateRoute path="/messages" authed={this.state.authed} component={Messages} />
+                  <PublicRoute path='/auth' component={Auth} authed={this.state.authed} />
+                </Switch>
+              </div>
             </div>
           </React.Fragment>
         </BrowserRouter>
