@@ -1,0 +1,62 @@
+{
+	"article1": {
+		"uid": "c2npvgEAcdRdiRri1gnw3hOpJxq2",
+		"url": "https://www.quantamagazine.org/newfound-wormhole-allows-information-to-escape-black-holes-20171023/",
+		"title": "Wormholes Allow Information to Escape Black Holes",
+		"synopsis": "Check out this recent discovery about wormholes"
+	},
+	"article2": {
+		"uid": "c2npvgEAcdRdiRri1gnw3hOpJxq2",
+		"url": "https://www.newyorker.com/culture/2018-in-review/the-best-movies-of-2018",
+		"title": "The  Best Movies of 2018",
+		"synopsis": "Check out this article on the best movies from 2018"
+	},
+	"article3": {
+		"uid": "777777",
+		"url": "https://www.newyorker.com/culture/2018-in-review/the-best-podcasts-of-2018",
+		"title": "The Best Podcasts of 2018",
+		"synopsis": "Check out this article on the best podcasts from 2018"
+	},
+	"article4": {
+		"uid": "0000000",
+		"url": "https://www.newyorker.com/culture/2018-in-review/the-best-jokes-of-2018",
+		"title": "The Best Jokes of 2018",
+		"synopsis": "Check out this article on the best jokes from 2018"
+	},
+	"article5": {
+		"uid": "0000000",
+		"url": "https://www.nytimes.com/interactive/2018/08/16/arts/music/madonna-birthday-impact.html",
+		"title": "60 Times Madonna Changed Our Culture",
+		"synopsis": "Check out this article about Madonna"
+	},
+	"article6": {
+		"uid": "0000000",
+		"url": "https://www.nytimes.com/2018/08/17/business/falsely-accused-of-shoplifting-but-retailers-demand-they-pay.html",
+		"title": "They’re Falsely Accused of Shoplifting, but Retailers Demand Penalties",
+		"synopsis": "Check out this article about false accusations"
+	},
+	"article7": {
+		"uid": "67890",
+		"url": "https://www.nytimes.com/2018/08/15/sports/cubing-usa-nationals-max-park.html",
+		"title": "Children of the Cube",
+		"synopsis": "Check out this article about cubing"
+	},
+	"article8": {
+		"uid": "67890",
+		"url": "https://www.nytimes.com/2018/08/14/us/theyve-seen-things.html",
+		"title": "They've Seen Things",
+		"synopsis": "Check out this article about UFO enthusiasts"
+	},
+	"article9": {
+		"uid": "67890",
+		"url": "https://www.nytimes.com/2018/08/14/us/puerto-rico-electricity-power.html",
+		"title": "In Puerto Rico, the power finally reaches the last few homes",
+		"synopsis": "Check out this article about the recovery in Puerto Rico"
+	},
+	"article10": {
+		"uid": "67890",
+		"url": "https://www.newyorker.com/culture/the-new-yorker-interview/robert-de-niro-is-always-doing-something",
+		"title": "Robert Deniro is always doing something",
+		"synopsis": "Check out this article on Robert De Niro"
+	}
+}
