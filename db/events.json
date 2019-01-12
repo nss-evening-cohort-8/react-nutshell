@@ -1,0 +1,62 @@
+{
+  "event1": {
+    "uid": "c2npvgEAcdRdiRri1gnw3hOpJxq2",
+    "event": "Bonfire at the beach",
+    "startDate": 1528763298535,
+    "location": "Ocean Beach"
+  },
+  "event2": {
+    "uid": "c2npvgEAcdRdiRri1gnw3hOpJxq2",
+    "event": "Nap",
+    "startDate": 1528763298536,
+    "location": "NSS"
+  },
+  "event3": {
+    "uid": "0000000",
+    "event": "Lunch",
+    "startDate": 1528763298535,
+    "location": "San Francisco"
+  },
+  "event4": {
+    "uid": "77777",
+    "event": "Missing",
+    "startDate": 1528763298536,
+    "location": "Bermuda Triangle"
+  },
+  "event5": {
+    "uid": "12345",
+    "event": "Sitting in traffic",
+    "startDate": 1528763298535,
+    "location": "Green Hills"
+  },
+  "event6": {
+    "uid": "12345",
+    "event": "Underwater Basket Weaving",
+    "startDate": 1528763298536,
+    "location": "Under the sea"
+  },
+  "event7": {
+    "uid": "12345",
+    "event": "Running",
+    "startDate": 1546234807415,
+    "location": "On land"
+  },
+  "event8": {
+    "uid": "12345",
+    "event": "Cat Nap",
+    "startDate": 1546234807415,
+    "location": "Sunbeam"
+  },
+  "event9": {
+    "uid": "12345",
+    "event": "Swimming",
+    "startDate": 1546234807415,
+    "location": "Ocean Beach"
+  },
+  "event10": {
+    "uid": "56780",
+    "event": "HW",
+    "startDate": 1546234807415,
+    "location": "NSS"
+  }
+}
