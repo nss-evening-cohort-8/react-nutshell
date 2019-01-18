@@ -1,0 +1,46 @@
+.messages {
+  .msg_card_body{
+    overflow-y: auto;
+  }
+  .card{
+    height: 85vh;
+    border-radius: 15px !important;
+    background-color: rgba(0,0,0,0.4) !important;
+  }
+
+  .card-footer{
+		border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+    .type_msg{
+			background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color:white !important;
+			height: 60px !important;
+			overflow-y: auto;
+    }
+
+    .type_msg:focus{
+      box-shadow:none !important;
+      outline:0px !important;
+    }
+
+		.send_btn{
+      border-radius: 0 15px 15px 0 !important;
+      background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color: white !important;
+			cursor: pointer;
+    }
+
+    .delete_btn{
+      border-radius: 15px 0 0 15px !important;
+      background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color: white !important;
+			cursor: pointer;
+    }
+    button {
+      margin: 0px !important;
+    }
+	}
+}
